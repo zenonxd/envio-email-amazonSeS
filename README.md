@@ -57,7 +57,7 @@ Em application teremos nossa classe EmailSenderService (@Service), implementando
 
 Essa camada irá conectar o core ao "mundo externo", como se fosse uma ponte.
 
-A camada de application será um EmailSenderGateway que será inserido dentro do construtor da classe de aplicação.
+A camada de application terá um EmailSenderGateway que será inserido dentro do construtor da classe de aplicação.
 
 Esse EmailSenderGateway vem da camada de adapters.
 

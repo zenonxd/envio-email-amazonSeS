@@ -51,11 +51,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/ses -->
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>ses</artifactId>
-            <version>2.29.12</version>
+            <version>2.29.14</version>
         </dependency>
+
     </dependencies>
 
     <build>
